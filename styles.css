@@ -121,3 +121,15 @@ header ul a {
     background-color: rgba(57, 1, 1, 0.931);
     box-shadow: 0 0 15px rgb(239, 131, 0);
 }
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+
+}
