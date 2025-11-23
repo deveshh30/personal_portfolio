@@ -11,7 +11,7 @@
 <body>
 
     <div class="container">
-        <video class="bg_vid" src="SRC/bghp.mp4" loop muted autoplay plays-inline></video>
+    <video id="bg_vid" class="bg_vid" src="SRC/galaxy.mp4" loop muted autoplay playsinline></video>
 
         <header>
             <div id="left_logo">
@@ -45,6 +45,9 @@
 
                 <button><i class="fa-solid fa-paper-plane-top" style="background-color: black;"></i>CONTACT ME</button>
             </div>
+
+            <!-- hero overlay video: blends with background video. Replace the src with your overlay video file. -->
+            <video id="hero_vid" class="hero_vid" src="./SRC/hero-video.mp4" muted loop autoplay playsinline></video>
         </section>
     </div>
     <script src="script.js"></script>
