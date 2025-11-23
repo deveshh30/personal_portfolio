@@ -189,3 +189,24 @@ header ul a {
     cursor: pointer;
     background-color: rgba(157, 0, 0, 0.06);
 }
+
+
+/* gradient animation */
+.gradient{
+    background: linear-gradient(to left, #008baa, #7e42a7, #6600c5, #6070fd, #2a46ff, #0099ff );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 5s linear infinite;
+}
+
+@keyframes animate-gradient {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 200%;
+    }
+}
+
